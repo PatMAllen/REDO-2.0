@@ -8,3 +8,5 @@ logical HTML structure
 accessible images with alt attributes added
 restructured CSS file
 code pushed to GitHub and deployed via Github Pages
+https://patmallen.github.io/REDO-2.0/
+This is the link to my REDO page!

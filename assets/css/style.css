@@ -1,55 +1,53 @@
-* header{
+* {
     box-sizing: border-box;
-    padding: 10pt;
-    margin: 5px;
+    padding: 0;
+    margin: 0;
 }
 
 body {
-    background-color:lightgray;
+    background-color: #d9dcd6;
 }
 
-.header  {
-    padding: 75px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #2589bd;
-    color: goldenrod;
-
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
 }
 
-.header h1 {
-  display: inline-block;
-    font-size: 75px; 
-}
-
-.header h1 .seo {
-    color: goldenrod;
-}
-
-
-.header div {
-    padding-top: 60px;
-    margin-left: 60px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
-    font-size: 25px;
-}
-
-.header div ul {
-    list-style-type: square;
-}
-
-.header div ul li {
+header h1 {
     display: inline-block;
-    margin-left: 20px;
+    font-size: 48px;
+}
+
+#seo {
+    color: #d9dcd6;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 25px;
 }
 
 a {
-    color: goldenrod;
+    color: #ffffff;
     text-decoration: none;
 }
 
 p {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .hero {
@@ -72,7 +70,7 @@ p {
 }
 
 .content {
-    width: 60%;
+    width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -83,7 +81,7 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    height: 150%;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
@@ -136,7 +134,7 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+#search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -145,7 +143,7 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
+#online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -154,7 +152,7 @@ p {
     color: #ffffff;
 }
 
-.social-media-marketing {
+#social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -163,29 +161,11 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.Blueblock {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
+.Photos {
     margin-bottom: 20px;
     font-size: 36px;
 }
